@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">recyclerview</string>
+    <string name="app_name">ViewGameTrailer</string>
     <string name="judul">judul</string>
     <string name="description">description</string>
     <string-array name="judul_video">
