@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">recyclerview</string>
+    <string name="judul">judul</string>
+    <string name="description">description</string>
+    <string-array name="judul_video">
+        <item>ALBION</item>
+        <item>PIGGY HUNT</item>
+        <item>HORIZON</item>
+        <item>THE INITIATIVE</item>
+        <item>KAEL</item>
+        <item>PERFECT SWING</item>
+        <item>MOMODORA</item>
+        <item>CALL OF DUTY</item>
+        <item>JOERNEY TO SPACE</item>
+        <item>LEOS FORTUNE</item>
+        <item>STEP INSIDE</item>
+        <item>HADES 2</item>
+        <item>ULTIMATE AWAKEN</item>
+        <item>30 SECONDS</item>
+        <item>GEMS OF WAR</item>
+    </string-array>
+    <string-array name="data_dekripsi">
+        <item> Albion Online adalah MMORPG fantasi abad pertengahan gratis yang dikembangkan oleh Sandbox Interactive,
+            sebuah studio yang berbasis di Berlin, Jerman. Bertempat di dunia abad pertengahan, Albion Online adalah
+            game fantasi abad pertengahan berdasarkan legenda Arthurian, dengan aspek strategi militeristik.
+            \n\n
+            EKONOMI DIKENDALIKAN PEMAIN
+            Mulai dari peralatan dasar dan pakaian hingga armor perkasa dan senjata yang kuat, hampir setiap item dalam
+            game ini dibuat oleh pemain dari sumber daya yang dikumpulkan oleh pemain. Beli dan jual barang di marketplace
+            lokal di seluruh Albion, buat itemmu sendiri untuk dijual dan kembangkan kekayaanmu, atau ambil alat yang
+            dibuat pemain sebagai rampasan pertarungan. Semua yang kamu lakukan mendorong ekonomi Albion.
+        </item>
+        <item>SPIGGY: Hunt adalah game multipemain horor bertahan hidup yang bergerak cepat. Para penyintas harus bekerja
+            sama untuk bertahan hidup dan melarikan diri dari Yang Terinfeksi. Ulasan Terbaru: Sebagian Besar Negatif
+            (28) - 25% dari 28 ulasan pengguna dalam 30 hari terakhir adalah positif.</item>
+        <item>Horizon adalah serangkaian permainan bermain peran aksi yang dikembangkan oleh Guerrilla Games dan diterbitkan
+            oleh Sony Interactive Entertainment untuk PlayStation 4, PlayStation 5, dan Microsoft Windows</item>
+        <item>Pada tahun 1994, empat remaja menemukan permainan misterius di halaman penjualan. Saat mereka memainkannya,
+            mereka menemukan bahwa hal itu ada hubungannya dengan kehidupan mereka. Apa risiko yang mereka ambil untuk
+            mengungkap rahasia The Initiative?
+            \n\n
+            Mulailah perjalanan penemuan, teka-teki, dan strategi unik yang tidak seperti permainan papan mana pun yang
+            pernah Anda alami. Baca buku komiknya, mainkan permainannya, dan ungkapkan rahasianya.</item>
+        <item>Kael pernah menjadi pencuri kecil yang menjelajahi dunia Teleria dan mengambil apa pun yang dia bisa menggunakan
+            sihir Elfnya untuk melawan musuh yang marah. Arbiter menemukan Kael dan menawarinya kesempatan untuk memperbaiki
+            kesalahan yang telah dia lakukan dan pada akhirnya melakukan perlawanan melawan Mayat Hidup jahat yang muncul di
+            tengah-tengah mereka. Arbiter mengajarkan Kael tentang persahabatan dan kebutuhan akan Sekutu, saat itulah ia
+            menjadi salah satu dan berpotensi menjadi yang terkuat dari empat orang yang tidak terduga bersama Galek , Elhain,
+            dan Athel. </item>
+        <item>
+        Bersainglah dalam game multiplayer real-time melawan para pemain golf dari seluruh penjuru dunia dalam permainan Pertandingan.\n\n
+        Sebuah permainan golf ajang multiplayer. Temukan keseruannya secara langsung di semua eprangkat anda.</item>
+        <item>Momodora: Reverie Under The Moonlight adalah seri keempat dari seri platformer 2D Momodora yang dicintai. Lepaskan kombo yang menghancurkan melawan berbagai monster tangguh dan dengan cekatan menghindari jalan Anda melalui tanah terkutuk untuk bertemu dengan Ratu dan menghilangkan kejahatan yang mengancam semua kehidupan.</item>
+        <item>Call of Duty adalah permainan video tembak-menembak orang pertama yang berbasis pada id Tech 3, dan dirilis pada tanggal 29 Oktober 2003. Permainan ini dikembangkan oleh Infinity Ward dan diterbitkan oleh Activision. Permainan ini mensimulasikan infanteri dan perang kombinasi militer pada Perang Dunia II.</item>
+        <item>Space Journey adalah simulator luar angkasa orang pertama. Anda akan menjelajahi 6 level: Sabuk Asteroid, Supernova, Orion, Ruang Tak Terbatas, Nebula, dan Kekosongan Gelap.
+            \n\n Jelajahi ruang tanpa batas dan kumpulkan awan gas merah untuk mengumpulkannya menjadi energi. Setiap awan gas memberi Anda 5% bahan bakar Anda. Anda dapat berakselerasi dan bermanuver, setiap akselerasi membutuhkan 5% bahan bakar Anda, manuver membutuhkan 1% -5% tergantung kecepatan Anda. Jika Anda kehabisan bahan bakar, kapal akan mulai melambat secara perlahan.</item>
+        <item>Leo’s fortune bercerita tentang petualangan memburu koin emas yang dilakukan oleh figure karakter yang ada di dalamnya yaitu Leopard. Entah harus disebut sebuah atau seekor leopard ini mempunyai bentuk bulat berbulu dengan aksen eropa timur yang kental sehingga membuat banyak orang tertarik dengan karakter figure ini.</item>
+        <item>MechWarrior 5: Mercenaries sangat menghormati warisan MechWarrior selama 30 tahun: dalam mekanika, kontrol, dan bahkan
+            soundtrack. Riff gitar bombastis bergemuruh di setiap pertarungan, laser mendesis, PPC berderak, dan Gauss Rifles mengeluarkan
+            suara bangku yang aneh. Mekanisme menginjak, menghancurkan, dan meledak secara spektakuler, meratakan bangunan di sekitarnya.
+            Singkatnya: MechWarrior sangat kembali.</item>
+        <item>Hades II adalah penjelajah bawah tanah yang mirip penjahat di mana Anda akan bertempur melampaui Dunia Bawah dalam mitos Yunani menggunakan sihir gelap untuk menghadapi Titan Waktu yang jahat. Sekuel pertama studio kami dibangun berdasarkan aspek terbaik dari karya orisinal pemenang penghargaan dalam pengalaman baru, penuh aksi, dan dapat diputar ulang tanpa henti yang berakar pada Dunia Bawah dalam mitos Yunani dan hubungannya yang mendalam dengan awal mula ilmu sihir.
+            \n\n Sebagai Putri Dunia Bawah yang abadi, Anda akan menjelajahi dunia mistis yang lebih besar dan lebih dalam, menaklukkan kekuatan Titan Waktu dengan kekuatan penuh Olympus di belakang Anda, dalam kisah luas yang terus terungkap melalui setiap kemunduran dan pencapaian Anda. Lokasi baru, tantangan, peningkatan sistem, dan kejutan menanti saat Anda menjelajahi Dunia Bawah yang terus berubah.
+            \n\n Permainan akan berlangsung beberapa saat setelah kejadian pada game pertama. Antagonis utama permainan ini adalah Chronos , Titan Waktu yang melarikan diri dari penjaranya di Dunia Bawah, menangkap Hades dan mulai berperang melawan Olympus . Dengan bantuan Olympus, Melinoë , Putri Dunia Bawah dan putri Hades harus memasuki Dunia Bawah untuk mengalahkan Chronos dan pasukannya.</item>
+        <item>"Ultimate Wars: Awaken" adalah permainan petualangan gratis untuk Android yang dikembangkan oleh Zhao Mae. Permainan ini memiliki alur cerita klasik dan kombinasi pertarungan yang brilian yang akan membuat Anda ketagihan. Dengan berbagai pilihan gameplay, permainan ini menawarkan pengalaman unik yang menunggu Anda untuk membukanya.</item>
+        <item>30 detik ke penjara adalah game indie tentang seorang pria yang mendapat sekantong obat-obatan. Anda memiliki waktu 30 detik untuk memikirkan cara menyingkirkannya dan tidak terjebak di penjara. Dari memberi makan anjing secara dangkal, hingga ritual lengkap memanggil arwah Bob Marley.</item>
+        <item>Dari pencipta Puzzle Quest, mainkan perpaduan Puzzle/RPG/Strategi baru, GEMS OF WAR! Cocokkan permata untuk memperkuat mantramu, dan cocokkan tengkorak untuk menghajar musuhmu! Mudah dipelajari namun memiliki banyak kedalaman.</item>
+    </string-array>
+
+    <array name="video_id">
+        <item>@raw/a0</item>
+        <item>@raw/a1</item>
+        <item>@raw/a2</item>
+        <item>@raw/a3</item>
+        <item>@raw/a4</item>
+        <item>@raw/a5</item>
+        <item>@raw/a6</item>
+        <item>@raw/a7</item>
+        <item>@raw/a8</item>
+        <item>@raw/a9</item>
+        <item>@raw/b1</item>
+        <item>@raw/b2</item>
+        <item>@raw/b3</item>
+        <item>@raw/b4</item>
+        <item>@raw/b5</item>
+    </array>
+
+
+    <integer-array name="data_gambar">
+        <item>@drawable/gambar1</item>
+        <item>@drawable/gambar2</item>
+        <item>@drawable/gambar3</item>
+        <item>@drawable/gambar4</item>
+        <item>@drawable/gambar5</item>
+        <item>@drawable/gambar6</item>
+        <item>@drawable/gambar7</item>
+        <item>@drawable/gambar8</item>
+        <item>@drawable/gambar9</item>
+        <item>@drawable/gambar10</item>
+        <item>@drawable/gambar11</item>
+        <item>@drawable/gambar12</item>
+        <item>@drawable/gambar13</item>
+        <item>@drawable/gambar14</item>
+        <item>@drawable/gambar15</item>
+
+    </integer-array>
+</resources>

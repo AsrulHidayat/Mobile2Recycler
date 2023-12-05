@@ -1,0 +1,7 @@
+<!-- res/drawable/background_gradient.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="#000000"
+        android:endColor="#2D025A"
+        android:angle="20"/> <!-- Sudut 90 derajat membuat gradien dari atas ke bawah -->
+</shape>
