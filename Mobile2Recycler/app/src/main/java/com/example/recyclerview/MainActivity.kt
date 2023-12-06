@@ -6,34 +6,65 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
+
     private lateinit var recyclerView: RecyclerView
-    private val list= ArrayList<video>()
+    private lateinit var videoAdapter: ListAdapter
+    private val videoList = ArrayList<video>()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        recyclerView=findViewById(R.id.vv_video)
-        recyclerView.setHasFixedSize(true)
-        list.addAll(getList())
-        showRecyclerList()
+
+        recyclerView = findViewById(R.id.vv_video)
+        recyclerView.layoutManager = LinearLayoutManager(this)
+
+        videoList.addAll(getList())
+
+        videoAdapter = ListAdapter(videoList)
+        recyclerView.adapter = videoAdapter
     }
 
-    private fun getList():ArrayList<video>{
-        val gambar=resources.obtainTypedArray(R.array.data_gambar)
-        val dataName=resources.getStringArray(R.array.judul_video)
-        val dataDesripsi=resources.getStringArray(R.array.data_dekripsi)
-        val videoId=resources.obtainTypedArray(R.array.video_id)
-        val listvideo=ArrayList<video>()
-        for (i in dataName.indices){
-            val video=video(gambar.getResourceId(i,-1),dataName[i],dataDesripsi[i],videoId.getResourceId(i,-1))
-            listvideo.add(video)
+    override fun onResume() {
+        super.onResume()
+        if (videoAdapter.isAudioPlaying()) {
+            // Mulai pemutaran audio di sini jika diperlukan.
         }
-        return listvideo
-
-    }
-    private fun showRecyclerList(){
-        recyclerView.layoutManager=LinearLayoutManager(this)
-        val listadapter=ListAdapter(list)
-        recyclerView.adapter=listadapter
     }
 
+    override fun onPause() {
+        super.onPause()
+        videoAdapter.stopAudio()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        videoAdapter.stopAudio()
+    }
+
+    private fun getList(): ArrayList<video> {
+        val dummyData = ArrayList<video>()
+
+        val judulVideoArray = resources.getStringArray(R.array.judul_video)
+        val deskripsiArray = resources.getStringArray(R.array.data_dekripsi)
+        val gambarArray = resources.obtainTypedArray(R.array.data_gambar)
+        val audioIdArray = resources.getIntArray(R.array.audio_id)
+        val videoIdArray = resources.obtainTypedArray(R.array.video_id)
+
+        for (i in judulVideoArray.indices) {
+            dummyData.add(
+                video(
+                    gambarArray.getResourceId(i, -1),
+                    judulVideoArray[i],
+                    deskripsiArray[i],
+                    videoIdArray.getResourceId(i, -1),
+                    audioIdArray[i]
+                )
+            )
+        }
+
+        gambarArray.recycle()
+        videoIdArray.recycle()
+
+        return dummyData
+    }
 }

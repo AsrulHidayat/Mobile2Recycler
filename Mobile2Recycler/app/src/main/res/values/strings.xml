@@ -86,7 +86,6 @@
         <item>@raw/b5</item>
     </array>
 
-
     <integer-array name="data_gambar">
         <item>@drawable/gambar1</item>
         <item>@drawable/gambar2</item>
@@ -104,4 +103,23 @@
         <item>@drawable/gambar14</item>
         <item>@drawable/gambar15</item>
     </integer-array>
+
+    <integer-array name="audio_id">
+        <item>@raw/m1</item>
+        <item>@raw/m2</item>
+        <item>@raw/m3</item>
+        <item>@raw/m4</item>
+        <item>@raw/m5</item>
+        <item>@raw/m6</item>
+        <item>@raw/m7</item>
+        <item>@raw/m8</item>
+        <item>@raw/m9</item>
+        <item>@raw/m10</item>
+        <item>@raw/m11</item>
+        <item>@raw/m12</item>
+        <item>@raw/m13</item>
+        <item>@raw/m14</item>
+        <item>@raw/m15</item>
+    </integer-array>
+
 </resources>
