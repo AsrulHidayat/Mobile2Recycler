@@ -25,6 +25,7 @@
             game fantasi abad pertengahan berdasarkan legenda Arthurian, dengan aspek strategi militeristik.
             \n\n
             EKONOMI DIKENDALIKAN PEMAIN
+            \n\n
             Mulai dari peralatan dasar dan pakaian hingga armor perkasa dan senjata yang kuat, hampir setiap item dalam
             game ini dibuat oleh pemain dari sumber daya yang dikumpulkan oleh pemain. Beli dan jual barang di marketplace
             lokal di seluruh Albion, buat itemmu sendiri untuk dijual dan kembangkan kekayaanmu, atau ambil alat yang
@@ -102,6 +103,5 @@
         <item>@drawable/gambar13</item>
         <item>@drawable/gambar14</item>
         <item>@drawable/gambar15</item>
-
     </integer-array>
 </resources>
